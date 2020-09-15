@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="keys">
+            <div data-key="65" class="key" id="A"><kbd>A</kbd></div>
+            <span class="sound">tink</span>
+        </div>
+        <div class="keys">
+            <div data-key="83" class="key" id="S"><kbd>S</kbd></div>
+            <span class="sound">boom</span>
+        </div>
+        <div class="keys">
+            <div data-key="68" class="key" id="D"><kbd>D</kbd></div>
+            <span class="sound">boom2</span>
+        </div>
+        <div class="keys">
+            <div data-key="70" class="key" id="F"><kbd>F</kbd></div>
+            <span class="sound">openhat</span>
+        </div>
+        <div class="keys">
+            <div data-key="71" class="key" id="G"><kbd>G</kbd></div>
+            <span class="sound">clap</span>
+        </div>
+        <div class="keys">
+            <div data-key="72" class="key" id="H"><kbd>H</kbd></div>
+            <span class="sound">ride</span>
+        </div>
+        <div class="keys">
+            <div data-key="74" class="key" id="J"><kbd>J</kbd></div>
+            <span class="sound">snare</span>
+        </div>
+        <div class="keys">
+            <div data-key="75" class="key" id="K"><kbd>K</kbd></div>
+            <span class="sound">tom</span>
+        </div>
+        <div class="keys">
+            <div data-key="76" class="key" id="L"><kbd>L</kbd></div>
+            <span class="sound">snare2</span>
+        </div>
+    </main>
+    <audio data-key="65" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
+    <audio data-key="83" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>
+    <audio data-key="68" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>
+    <audio data-key="70" src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3"></audio>
+    <audio data-key="71" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>
+    <audio data-key="72" src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3"></audio>
+    <audio data-key="74" src="https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3"></audio>
+    <audio data-key="75" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audio>
+    <audio data-key="76" src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3"></audio>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
